@@ -18,7 +18,7 @@ export function Navbar() {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/notifications">Notifications</Link>
         </li>
       </ul>
     </nav>

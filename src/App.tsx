@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
-import { Dashboard } from "./pages/Dashboard";
+import { Notifications } from "./pages/Notifications";
 import "./App.css";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/notifications" element={<Notifications />} />
         </Routes>
       </main>
       <Footer />
