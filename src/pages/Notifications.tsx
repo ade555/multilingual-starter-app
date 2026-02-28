@@ -21,13 +21,6 @@ const dateFormatter = new Intl.DateTimeFormat(navigator.language, {
   day: "2-digit",
 });
 
-const currencyFormatter = new Intl.NumberFormat(navigator.language, {
-  style: "currency",
-  currency: "USD",
-});
-
-const numberFormatter = new Intl.NumberFormat(navigator.language);
-
 export function Notifications() {
   return (
     <div className="notifications">
