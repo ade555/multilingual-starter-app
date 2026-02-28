@@ -6,35 +6,12 @@ const notifications = [
     user: "Alice Martin",
     action: "joined the team",
     date: new Date("2025-11-03"),
-    meta: null,
   },
   {
     id: 2,
     user: "Bob Chen",
     action: "left a comment on your post",
     date: new Date("2025-11-05"),
-    meta: null,
-  },
-  {
-    id: 3,
-    user: "System",
-    action: "Monthly report ready",
-    date: new Date("2025-11-08"),
-    meta: { type: "number", value: 1240 },
-  },
-  {
-    id: 4,
-    user: "System",
-    action: "Subscription renewed",
-    date: new Date("2025-11-10"),
-    meta: { type: "currency", value: 49.99 },
-  },
-  {
-    id: 5,
-    user: "Diana Müller",
-    action: "shared a file with you",
-    date: new Date("2025-11-12"),
-    meta: null,
   },
 ];
 
@@ -64,14 +41,6 @@ export function Notifications() {
             <div className="notification-body">
               <p>
                 <strong>{a.user}</strong> {a.action}
-                {a.meta && (
-                  <span className="notification-meta">
-                    {" — "}
-                    {a.meta.type === "currency"
-                      ? currencyFormatter.format(a.meta.value)
-                      : numberFormatter.format(a.meta.value) + " items"}
-                  </span>
-                )}
               </p>
               <span className="notification-date">
                 {dateFormatter.format(a.date)}

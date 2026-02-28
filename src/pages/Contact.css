@@ -1,3 +1,4 @@
+/* src/pages/Contact.css */
 .contact {
   max-width: 520px;
   margin: 0 auto;
@@ -79,6 +80,12 @@ button:hover {
 }
 
 @keyframes slideUp {
-  from { transform: translateY(10px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

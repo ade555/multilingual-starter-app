@@ -15,16 +15,14 @@ export function Contact() {
     setMessage("");
     setTimeout(() => setSubmitted(false), 3000);
   }
-
   return (
     <div className="contact">
-      {submitted && (
-        <div className="toast">Message sent successfully!</div>
-      )}
-
+      {submitted && <div className="toast">Message sent successfully!</div>}
       <h1>Contact us</h1>
-      <p>Have a question or want to work together? We would love to hear from you.</p>
-
+      <p>
+        Have a question or want to work together? We would love to hear from
+        you.
+      </p>
       <div className="form">
         <div className="field">
           <label htmlFor="name">Your name</label>
