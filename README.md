@@ -1,4 +1,4 @@
-# MyApp
+# Multilingual Starter App
 
 A React application built with Vite. The `main` branch contains the base application with no localization. The `multilingual` branch extends it with AI-powered translations using [Lingo.dev](https://lingo.dev).
 
@@ -42,7 +42,7 @@ The `multilingual` branch additionally uses:
 
 ```bash
 git clone https://github.com/ade555/multilingual-starter-app
-cd my-app
+cd multilingual-starter-app
 ```
 
 **2. Install dependencies**
