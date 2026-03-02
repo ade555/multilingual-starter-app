@@ -1,0 +1,14 @@
+{
+  "0": {
+    "id": 1,
+    "user": "Alice Martin",
+    "action": "a rejoint l'équipe",
+    "date": "2025-11-03"
+  },
+  "1": {
+    "id": 2,
+    "user": "Bob Chen",
+    "action": "a laissé un commentaire sur votre publication",
+    "date": "2025-11-05"
+  }
+}
