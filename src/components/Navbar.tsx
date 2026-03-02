@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useLingoContext } from "@lingo.dev/compiler/react";
 import "./Navbar.css";
 import { LanguageSwitcher } from "./LanguageSwitcher";

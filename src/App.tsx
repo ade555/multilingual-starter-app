@@ -19,7 +19,7 @@ export default function App() {
           <Route
             path="/"
             element={<Navigate to={`/${defaultLocale}`} replace />}
-          />{" "}
+          />
           {/* redirect to default locale */}
           <Route path="/:locale" element={<Home />} />
           <Route path="/:locale/about" element={<About />} />

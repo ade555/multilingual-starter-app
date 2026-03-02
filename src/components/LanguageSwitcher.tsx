@@ -1,5 +1,5 @@
 import { useLingoContext } from "@lingo.dev/compiler/react";
-import { useNavigate, useLocation, useParams } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export function LanguageSwitcher() {
   const { locale, setLocale } = useLingoContext();
