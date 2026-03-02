@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useLingoContext } from "@lingo.dev/compiler/react";
 import "./Navbar.css";
-import { LanguageSwitcher } from "./LanguageSwircher";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Navbar() {
   const { locale } = useLingoContext();
